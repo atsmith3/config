@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/atsmith3/sniper/common/core/memory_subsystem'
+let g:netrw_dirhist_2='/home/atsmith3/sniper/common/core/memory_subsystem/parametric_dram_directory_msi'
+let g:netrw_dirhist_3='/home/atsmith3/sniper/common/core/memory_subsystem'
+let g:netrw_dirhist_4='/home/atsmith3/sniper/common/core/memory_subsystem/parametric_waferscale_dram'
+let g:netrw_dirhist_5='/home/atsmith3/sniper/test/hello_world'
