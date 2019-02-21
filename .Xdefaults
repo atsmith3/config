@@ -2,6 +2,7 @@
 !xrdb -load ~/.Xdefaults
 
 xterm*faceName: DejaVu Sans Mono Book
-xterm*faceSize: 24
+xterm*faceSize: 12
 xterm*background:black
-xterm*foreground:lightblue
+xterm*foreground:grey78
+xterm*termName: xterm-256color
