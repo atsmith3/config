@@ -57,9 +57,9 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]\$ '
 else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\W\$ '
 fi
 unset color_prompt force_color_prompt
 
@@ -118,11 +118,11 @@ fi
 
 alias 'l'='ls -l'
 alias 'la'='ls -la'
-alias 'yakyak'='/home/andrew/app_build/yakyak-linux-x64/yakyak'
-alias 'gridfan'='sudo /home/andrew/app_build/gridfan/gridfan'
-alias 'gf75'='sudo /home/andrew/app_build/gridfan/gridfan set fans all speed 75'
-alias 'gf60'='sudo /home/andrew/app_build/gridfan/gridfan set fans all speed 60'
-alias 'gf50'='sudo /home/andrew/app_build/gridfan/gridfan set fans all speed 50'
-alias 'gf45'='sudo /home/andrew/app_build/gridfan/gridfan set fans all speed 45'
-alias 'gf40'='sudo /home/andrew/app_build/gridfan/gridfan set fans all speed 40'
+alias 'yakyak'='/home/andrew/software/yakyak-linux-x64/yakyak'
+alias 'vpnui'='/opt/cisco/anyconnect/bin/vpnui'
 alias 'tmux'='TERM=screen-256color-bce tmux'
+alias 'temp'='watch -n1 sensors'
+alias 'exodus'='ssh atsmith3@exodus.csl.illinois.edu'
+
+xset dpms 0 0 600
+xrdb -load ~/.Xdefaults
