@@ -77,7 +77,7 @@ if exists('g:cpp_class_decl_highlight') && g:cpp_class_decl_highlight
 	hi def link cCustomClassKey cppStructure
 
 	" Clear cppAccess entirely and redefine as matches
-	syn clear cppAccess
+	" syn clear cppAccess
 	syn match cCustomAccessKey "\<private\>"
 	syn match cCustomAccessKey "\<public\>"
 	syn match cCustomAccessKey "\<protected\>"

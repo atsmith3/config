@@ -123,6 +123,9 @@ alias 'vpnui'='/opt/cisco/anyconnect/bin/vpnui'
 alias 'tmux'='TERM=screen-256color-bce tmux'
 alias 'temp'='watch -n1 sensors'
 alias 'exodus'='ssh atsmith3@exodus.csl.illinois.edu'
+alias 'slock'='i3lock -d -I 15 -c 000000 && systemctl suspend'
+alias 'hlock'='i3lock -d -I 15 -c 000000 && systemctl hybernate'
+alias 'lock'='i3lock -d -I 15 -c 000000'
 
-xset dpms 0 0 600
-xrdb -load ~/.Xdefaults
+#xset dpms 0 0 600
+#xrdb -load ~/.Xdefaults
