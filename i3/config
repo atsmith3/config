@@ -159,47 +159,47 @@ mode "mouse" {
   set $quick 10
   set $fast 50
 
-  # Mouse movement (slow/fine-tuned) -- vim keybindings
+  # Mouse movement (quick/fine-tuned) -- vim keybindings
 
-  bindsym h exec xdotool mousemove_relative -- -$slow 0
-  bindsym j exec xdotool mousemove_relative 0 $slow
-  bindsym k exec xdotool mousemove_relative -- 0 -$slow
-  bindsym l exec xdotool mousemove_relative $slow 0
+  bindsym h exec xdotool mousemove_relative -- -$quick 0
+  bindsym j exec xdotool mousemove_relative 0 $quick
+  bindsym k exec xdotool mousemove_relative -- 0 -$quick
+  bindsym l exec xdotool mousemove_relative $quick 0
 
-  # Mouse movement (slow/fine-tuned) -- arrow keys
+  # Mouse movement (quick/fine-tuned) -- arrow keys
 
-  bindsym Left exec xdotool mousemove_relative -- -$slow 0
-  bindsym Down exec xdotool mousemove_relative 0 $slow
-  bindsym Up exec xdotool mousemove_relative -- 0 -$slow
-  bindsym Right exec xdotool mousemove_relative $slow 0
+  bindsym Left exec xdotool mousemove_relative -- -$quick 0
+  bindsym Down exec xdotool mousemove_relative 0 $quick
+  bindsym Up exec xdotool mousemove_relative -- 0 -$quick
+  bindsym Right exec xdotool mousemove_relative $quick 0
 
-  # Mouse movement (quicker) -- vim keybindings
+  # Mouse movement (faster) -- vim keybindings
 
-  bindsym Shift+h exec xdotool mousemove_relative -- -$quick 0
-  bindsym Shift+j exec xdotool mousemove_relative 0 $quick
-  bindsym Shift+k exec xdotool mousemove_relative -- 0 -$quick
-  bindsym Shift+l exec xdotool mousemove_relative $quick 0
+  bindsym Shift+h exec xdotool mousemove_relative -- -$fast 0
+  bindsym Shift+j exec xdotool mousemove_relative 0 $fast
+  bindsym Shift+k exec xdotool mousemove_relative -- 0 -$fast
+  bindsym Shift+l exec xdotool mousemove_relative $fast 0
 
-  # Mouse movement (quicker) -- arrow keys
+  # Mouse movement (faster) -- arrow keys
 
-  bindsym Shift+Left exec xdotool mousemove_relative -- -$quick 0
-  bindsym Shift+Down exec xdotool mousemove_relative 0 $quick
-  bindsym Shift+Up exec xdotool mousemove_relative -- 0 -$quick
-  bindsym Shift+Right exec xdotool mousemove_relative $quick 0
+  bindsym Shift+Left exec xdotool mousemove_relative -- -$fast 0
+  bindsym Shift+Down exec xdotool mousemove_relative 0 $fast
+  bindsym Shift+Up exec xdotool mousemove_relative -- 0 -$fast
+  bindsym Shift+Right exec xdotool mousemove_relative $fast 0
 
-  # Mouse movement (fast) -- vim keybindings
+  # Mouse movement (slow) -- vim keybindings
 
-  bindsym Shift+$mod2+h exec xdotool mousemove_relative -- -$fast 0
-  bindsym Shift+$mod2+j exec xdotool mousemove_relative 0 $fast
-  bindsym Shift+$mod2+k exec xdotool mousemove_relative -- 0 -$fast
-  bindsym Shift+$mod2+l exec xdotool mousemove_relative $fast 0
+  bindsym Shift+$mod2+h exec xdotool mousemove_relative -- -$slow 0
+  bindsym Shift+$mod2+j exec xdotool mousemove_relative 0 $slow
+  bindsym Shift+$mod2+k exec xdotool mousemove_relative -- 0 -$slow
+  bindsym Shift+$mod2+l exec xdotool mousemove_relative $slow 0
 
-  # Mouse movement (fast) -- arrow keys
+  # Mouse movement (slow) -- arrow keys
 
-  bindsym Shift+$mod2+Left exec xdotool mousemove_relative -- -$fast 0
-  bindsym Shift+$mod2+Down exec xdotool mousemove_relative 0 $fast
-  bindsym Shift+$mod2+Up exec xdotool mousemove_relative -- 0 -$fast
-  bindsym Shift+$mod2+Right exec xdotool mousemove_relative $fast 0
+  bindsym Shift+$mod2+Left exec xdotool mousemove_relative -- -$slow 0
+  bindsym Shift+$mod2+Down exec xdotool mousemove_relative 0 $slow
+  bindsym Shift+$mod2+Up exec xdotool mousemove_relative -- 0 -$slow
+  bindsym Shift+$mod2+Right exec xdotool mousemove_relative $slow 0
 
   # Left Click
   bindsym f exec xdotool click 1
