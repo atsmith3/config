@@ -17,6 +17,8 @@ let g:cpp_class_decl_highlight = 1
 let g:cpp_experimental_simple_template_highlight = 1
 let g:cpp_concepts_highlight = 1
 
+noremap ,<space> :%s/\s\+$//e<CR>
+
 set tags=./tags,tags;$HOME
 
 cs add $CSCOPE_DB
