@@ -9,7 +9,7 @@ set nowrap
 
 set t_Co=256
 syntax on
-colorscheme sublime-monokai
+colorscheme default
 
 let g:python_highlight_all = 1
 let g:cpp_class_scope_highlight = 1
@@ -22,3 +22,7 @@ noremap ,<space> :%s/\s\+$//e<CR>
 set tags=./tags,tags;$HOME
 
 cs add $CSCOPE_DB
+
+set ruler
+set cursorline
+

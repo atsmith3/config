@@ -1,3 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/home/andrew/ece511/gem5/build/X86/mem/protocol/html'
+let g:netrw_dirhist_cnt =0
