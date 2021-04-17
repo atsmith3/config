@@ -57,9 +57,9 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\W\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
 unset color_prompt force_color_prompt
 
@@ -118,14 +118,6 @@ fi
 
 alias 'l'='ls -l'
 alias 'la'='ls -la'
-alias 'yakyak'='/home/andrew/software/yakyak-linux-x64/yakyak'
 alias 'vpnui'='/opt/cisco/anyconnect/bin/vpnui'
 alias 'tmux'='TERM=screen-256color-bce tmux'
 alias 'temp'='watch -n1 sensors'
-alias 'exodus'='ssh atsmith3@exodus.csl.illinois.edu'
-alias 'slock'='i3lock -d -I 15 -c 000000 && systemctl suspend'
-alias 'hlock'='i3lock -d -I 15 -c 000000 && systemctl hybernate'
-alias 'lock'='i3lock -d -I 15 -c 000000'
-
-#xset dpms 0 0 600
-#xrdb -load ~/.Xdefaults
